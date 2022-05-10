@@ -3,7 +3,7 @@ const {
 	SelectMenuBuilder
 } = require('discord.js')
 
-const { config, embed, options } = require('../testconfig')
+const { config, embed, options } = require('../config')
 const owners = config.owners;
 
 module.exports = async (interaction) => {

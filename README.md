@@ -14,6 +14,15 @@ Node JS Version ^16.9.0
 
 Enable Message And Guild Member Intent [Developer Portal](https://discord.com/developers/applications)
 
+# Features
+
+- [x] Slash Commands
+- [x] Help Menu
+- [x] Feedback Form
+- [x] Issue Replies
+- [x] Logging
+
+
 # Instructions
 
 Download This Repo [Here](https://github.com/Abdul1810/support-bot-with-feedback-form/archive/refs/heads/master.zip)
@@ -39,11 +48,7 @@ Run The Bot with `npm start`
 
 # Example Bot
 
-![Main Interface](https://i.imgur.com/HYKfqLuh.jpg)
-
-![Feedback Panel](https://i.imgur.com/psFgsbO.jpg)
-
-![Reply Panel](https://i.imgur.com/AIqfKZU.jpg)
+![Main Interface](https://images-ext-2.discordapp.net/external/Zn1OaFu3p09aNnNClgSjNtG_VarXKU07eJ7MqsAjAY0/https/i.imgur.com/HYKfqLuh.jpg?width=350&height=350) ![Feedback Panel](https://images-ext-2.discordapp.net/external/AjG6QfKylkCSXU70fzRzEMjjzCxAaUCbnXSPNVcxqIM/https/i.imgur.com/psFgsbO.jpg?width=350&height=350) ![Reply Panel](https://images-ext-1.discordapp.net/external/5d0u5eoZ2Pwlb5GHfD1kpPI69xG_GQ1T43fw7UDof1w/https/i.imgur.com/AIqfKZU.jpg?width=305&height=350)
 
 # Support
 

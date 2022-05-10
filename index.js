@@ -12,7 +12,7 @@ const { REST } = require('@discordjs/rest')
 const { Routes } = require('discord-api-types/v9')
 
 //Loading Config
-const { config, embed, options } = require('./testconfig')
+const { config, embed, options } = require('./config')
 console.log('Config Loaded')
 const owners = config.owners
 

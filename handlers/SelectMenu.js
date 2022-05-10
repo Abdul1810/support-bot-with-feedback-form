@@ -4,7 +4,7 @@ const {
 	TextInputBuilder
 } = require('discord.js')
 
-const { config, embed, responses } = require('../testconfig')
+const { config, embed, responses } = require('../config')
 
 module.exports = async (interaction) => {
     let responseembed =

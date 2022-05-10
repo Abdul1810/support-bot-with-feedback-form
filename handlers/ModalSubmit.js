@@ -5,7 +5,7 @@ const {
 	ButtonBuilder
 } = require('discord.js')
 
-const { config } = require('../testconfig')
+const { config } = require('../config')
 const disableButton = require("../util/disableButton");
 
 module.exports = async (interaction) => {
