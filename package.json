@@ -1,0 +1,35 @@
+{
+  "name": "support-bot-with-feedback-form",
+  "version": "1.0.0",
+  "description": "A Support Bot For Your Server.Easy To Host.Work with Menu Interaction and Feedback Modal on Discord.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abdul1810/support-bot-with-feedback-form.git"
+  },
+  "keywords": [
+    "Discord_Bot",
+    "Discord-js-v13",
+    "Discord_Buttons",
+    "Support_Bot",
+    "24/7_Online",
+    "Button_interactions",
+    "Feedback_Form"
+  ],
+  "author": "Abdul1810",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Abdul1810/support-bot-with-feedback-form/issues"
+  },
+  "homepage": "https://github.com/Abdul1810/support-bot-with-feedback-form#readme",
+  "dependencies": {
+    "@discordjs/builders": "^0.12.0",
+    "@discordjs/rest": "^0.3.0",
+    "discord-api-types": "^0.27.3",
+    "discord.js": "^14.0.0-dev.1651147765-679dcda"
+  }
+}

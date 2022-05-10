@@ -1,0 +1,10 @@
+{
+	"embed_content": {
+		"title": "Support Embed Title",
+		"description": "Open The Below Menu And Select Your Issue.",
+		"color": "00000",
+		"thumbnail": false,
+		"thumbnail_url": "Url of A PNG/GIF",
+		"_questions": "Questions In The Menu Can Be Found In options.json"
+	}
+}

@@ -1,0 +1,39 @@
+{
+	"Options": [
+		{
+			"label": "Label 1",
+			"description": "Description 1",
+			"value": "option_1"
+		},
+		{
+			"label": "Label 2",
+			"description": "Description 2",
+			"value": "option_2"
+		},
+		{
+			"label": "Label 3",
+			"description": "Description 3",
+			"value": "option_3"
+		},
+		{
+			"label": "Label 4",
+			"description": "Description 4",
+			"value": "option_4"
+		},
+		{
+			"label": "Label 5",
+			"description": "Description 5",
+			"value": "option_5"
+		},
+		{
+			"label": "Others",
+			"description": "My Issue Is Not In The Above List",
+			"value": "others"
+		},
+		{
+			"label": "Submit Feedback",
+			"description": "Open a FeedBack Form, By Clicking This",
+			"value": "feedback"
+		}
+	]
+}

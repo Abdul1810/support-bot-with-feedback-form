@@ -1,0 +1,10 @@
+{
+	"token": "Bot Token",
+	"status": "Bot Status to be Displayed",
+	"prefix": "your-prefix-here",
+	"enable_slash": true,
+	"owners": ["array", "of", "discord_id", "type-snowflake"],
+	"log_channel_id": "Discord Channel ID(type-snowflake)",
+	"Important": "Must Fill The FeedBack Channel ID Field To Get Feedback From The Forms Interactions",
+	"Note": "Fill All The Above.For new Line use \n.For new TabSpace use \t.HyperLink use (text)[link] it will appear blue & clickable"
+}
