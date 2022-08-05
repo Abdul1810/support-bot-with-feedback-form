@@ -1,39 +1,64 @@
 {
 	"Options": [
 		{
-			"label": "Label 1",
-			"description": "Description 1",
+			"label": "Member Lookup and Information Commands",
+			"description": "Commands used to grab members information on or off server.",
 			"value": "option_1"
 		},
 		{
-			"label": "Label 2",
-			"description": "Description 2",
+			"label": "Role Lookup and Information Commands",
+			"description": "Commands used to grab role information from the server.",
 			"value": "option_2"
 		},
 		{
-			"label": "Label 3",
-			"description": "Description 3",
+			"label": "Guild/Server Information Commands",
+			"description": "This will give you an overview of the current guild/server.",
 			"value": "option_3"
 		},
 		{
-			"label": "Label 4",
-			"description": "Description 4",
+			"label": "Moderation Case Information Commands",
+			"description": "This section allows you to view all the moderation cases.",
 			"value": "option_4"
 		},
 		{
-			"label": "Label 5",
-			"description": "Description 5",
+			"label": "Moderation Case Accepted Parameters",
+			"description": "Accepted paramters for the main moderation case command.",
 			"value": "option_5"
 		},
 		{
-			"label": "Others",
-			"description": "My Issue Is Not In The Above List",
-			"value": "others"
+			"label": "Moderation Case Accepted Types",
+			"description": "Accepted types for the main moderation case command.",
+			"value": "option_6"
 		},
 		{
-			"label": "Submit Feedback",
-			"description": "Open a FeedBack Form, By Clicking This",
-			"value": "feedback"
+			"label": "Moderation - Warning Users",
+			"description": "It's customary to warn paying users BEFORE banning or kicking.",
+			"value": "option_7"
+		},
+		{
+			"label": "Moderation - Muting/Unmuting Users",
+			"description": "Used to control users who are being too spammy/disruptive.",
+			"value": "option_8"
+		},
+		{
+			"label": "Moderation - Purging User Messages",
+			"description": "Target user messages you want and delete them in bulk.",
+			"value": "option_9"
+		},
+		{
+			"label": "Moderation - Kicking Users",
+			"description": "Get rid of toxic members from the server, but not ban.",
+			"value": "option_10"
+		},
+		{
+			"label": "Moderation - Banning/Unbanning Users",
+			"description": "Carefully considier this option, especially for paid users.",
+			"value": "option_11"
+		},
+		{
+			"label": "Moderation - Quarantine/Unquarantine Users",
+			"description": "Unverified/dangerous users and bots are added to quarantine.",
+			"value": "option_12"
 		}
 	]
 }

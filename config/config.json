@@ -1,10 +1,10 @@
 {
-	"token": "Bot Token",
-	"status": "Bot Status to be Displayed",
-	"prefix": "your-prefix-here",
+	"token": "TOKEN_HERE",
+	"status": "STATUS_OF_BOT",
+	"prefix": "PREFIX_HERE",
 	"enable_slash": true,
-	"owners": ["array", "of", "discord_id", "type-snowflake"],
-	"log_channel_id": "Discord Channel ID(type-snowflake)",
-	"Important": "Must Fill The FeedBack Channel ID Field To Get Feedback From The Forms Interactions",
+	"owners": ["OWNER_ID", "OWNER_ID", "OWNER_ID"],
+	"log_channel_id": "LOG_CHANNEL_ID",
+	"Important": "Must Fill The FeedBack Channel ID Field To Get Feedback From The Forms Interactions. Also owners are the only ones permitted to create menus.",
 	"Note": "Fill All The Above.For new Line use \n.For new TabSpace use \t.HyperLink use (text)[link] it will appear blue & clickable"
 }
