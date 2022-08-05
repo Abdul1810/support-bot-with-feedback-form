@@ -51,82 +51,41 @@ module.exports = async (interaction) => {
             logChannel.send(`> **${interaction.user.username + "#" + interaction.user.discriminator}**(${interaction.user.id}) Used ${interaction.values[0]}\nTimeStamp: ${new Date()}`)
             return interaction.reply({ embeds: [responseembed], ephemeral: true })
         }
-        case 'others': {
-            const SubjectInput = new TextInputBuilder()
-                .setCustomId("_sub")
-                .setLabel("Subject")
-                .setPlaceholder("Subject Of Your Issue/Problem")
-                .setRequired(true)
-                .setMinLength(3)
-                .setMaxLength(75)
-                .setStyle(1)
-
-            const ContentInput = new TextInputBuilder()
-                .setCustomId("_exp")
-                .setLabel("Message")
-                .setPlaceholder("Explain Brief About Your Issue")
-                .setRequired(true)
-                .setMinLength(1)
-                .setMaxLength(250)
-                .setStyle(2)
-
-            const firstRow = new ActionRowBuilder().addComponents([SubjectInput])
-            const secondRow = new ActionRowBuilder().addComponents([ContentInput])
-
-            const othersModal = new ModalBuilder()
-                .setTitle("Describe Your Issue")
-                .setCustomId("_others")
-                .addComponents([ firstRow, secondRow ])
-
+        case 'option_6': {
+            responseembed.description = `**${responses.response_6}**`
             logChannel.send(`> **${interaction.user.username + "#" + interaction.user.discriminator}**(${interaction.user.id}) Used ${interaction.values[0]}\nTimeStamp: ${new Date()}`)
-            return interaction.showModal(othersModal)
+            return interaction.reply({ embeds: [responseembed], ephemeral: true })
         }
-        case 'feedback': {
-            const FeedbackInput = new TextInputBuilder()
-                .setCustomId("_msg")
-                .setLabel("Feedback")
-                .setPlaceholder("Write Your Feedback here ... ")
-                .setRequired(true)
-                .setMinLength(3)
-                .setMaxLength(250)
-                .setStyle(2)
-
-            const firstRow = new ActionRowBuilder().addComponents([FeedbackInput])
-
-            const FeedbackModal = new ModalBuilder()
-                .setTitle("Feedback Form")
-                .setCustomId("_feedback")
-                .addComponents([ firstRow ])
-
-            logChannel.send(`> **${interaction.user.username + "#" + interaction.user.discriminator}**(${interaction.user.id}) Used ${interaction.customId}\nTimeStamp: ${new Date()}`)
-            return interaction.showModal(FeedbackModal)
+	case 'option_7': {
+            responseembed.description = `**${responses.response_7}**`
+            logChannel.send(`> **${interaction.user.username + "#" + interaction.user.discriminator}**(${interaction.user.id}) Used ${interaction.values[0]}\nTimeStamp: ${new Date()}`)
+            return interaction.reply({ embeds: [responseembed], ephemeral: true })
         }
-        default:
-        {
-            const res =  new ModalSubmitFieldsResolver(interaction.components)
-            const Message = res.getField("_msg").data
-            const replyEmbed = new EmbedBuilder()
-                .setAuthor({
-                    name: "Your Issue Was Responded By Supoort Team",
-                    iconURL: interaction.guild.iconURL()
-                })
-                .setColor("Green")
-                .setFooter({
-                    text: interaction.guild.name
-                })
-                .setDescription(`**Message** : ${Message.value}`)
-                .setTimestamp()
-            
-            try {
-                const USER = interaction.client.users.cache.get(interaction.customId)
-                USER.send({
-                    embeds: [replyEmbed]
-                })
-                return await interaction.reply(`Your Message Was Sent To ${USER.username}#${USER.discriminator} in dms.`)
-            }
-            catch (e) {
-                return await interaction.reply(`The User Dms Were Closed.`)
-            }
+	case 'option_8': {
+            responseembed.description = `**${responses.response_8}**`
+            logChannel.send(`> **${interaction.user.username + "#" + interaction.user.discriminator}**(${interaction.user.id}) Used ${interaction.values[0]}\nTimeStamp: ${new Date()}`)
+            return interaction.reply({ embeds: [responseembed], ephemeral: true })
         }
+	case 'option_9': {
+            responseembed.description = `**${responses.response_9}**`
+            logChannel.send(`> **${interaction.user.username + "#" + interaction.user.discriminator}**(${interaction.user.id}) Used ${interaction.values[0]}\nTimeStamp: ${new Date()}`)
+            return interaction.reply({ embeds: [responseembed], ephemeral: true })
+        }
+	case 'option_10': {
+            responseembed.description = `**${responses.response_10}**`
+            logChannel.send(`> **${interaction.user.username + "#" + interaction.user.discriminator}**(${interaction.user.id}) Used ${interaction.values[0]}\nTimeStamp: ${new Date()}`)
+            return interaction.reply({ embeds: [responseembed], ephemeral: true })
+        }
+	case 'option_11': {
+            responseembed.description = `**${responses.response_11}**`
+            logChannel.send(`> **${interaction.user.username + "#" + interaction.user.discriminator}**(${interaction.user.id}) Used ${interaction.values[0]}\nTimeStamp: ${new Date()}`)
+            return interaction.reply({ embeds: [responseembed], ephemeral: true })
+        }
+	case 'option_12': {
+            responseembed.description = `**${responses.response_12}**`
+            logChannel.send(`> **${interaction.user.username + "#" + interaction.user.discriminator}**(${interaction.user.id}) Used ${interaction.values[0]}\nTimeStamp: ${new Date()}`)
+            return interaction.reply({ embeds: [responseembed], ephemeral: true })
+        }
+
     }
 }

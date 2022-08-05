@@ -8,7 +8,6 @@ const { Interaction } = require("discord.js")
 module.exports = async (interaction) => {
     if (interaction.isButton()) return await require("./Button")(interaction)
     else if (interaction.isCommand()) return await require("./Command")(interaction)
-    else if (interaction.isModalSubmit()) return await require("./ModalSubmit")(interaction)
     else if (interaction.isSelectMenu()) return await require("./SelectMenu")(interaction)
     else return console.log("Unknown Interaction")
 }
