@@ -128,7 +128,7 @@ Recommendation:
 1. Sign up for an account at PM2: https://app.pm2.io/
 2. create a new bucket
 3. stop the bot but stay in its directory
-4. identify and click the connect button (https://i.gyazo.com/717d4626a5d9d124597740f4ecd71c00.png)
+4. identify and click the connect button (https://i.gyazo.com/778be548182d1f46edd33a8424764ce4.png)
 5. make sure it is on 'server'
 6. Follow the steps
 7. Once done type 'pm2 save'
