@@ -36,22 +36,35 @@ I kept the original authors readme.md for reference but am going to re-write the
 First, make sure you have Python 3 and pip3 installed.
 
 $ sudo apt update
+
 $ sudo apt -y upgrade
+
 $ python3 -V [You’ll receive output in the terminal window that will let you know the version number.]
+
 $ sudo apt install -y python3-pip
+
 $ sudo apt install -y build-essential libssl-dev libffi-dev python3-dev
 
 ---- Step 2 ----
 
 Setting up a Virtual Env.
+
 $ sudo su [root password] [this make us sudo user so we dont have to use sudo to install w/ root]
+
 $ sudo apt install -y python3-venv
+
 $ mkdir environments
+
 $ cd environments
+
 $ python3 -m venv my_env [my_env should be the name of your project]
+
 $ ls my_env [you should see the following]:
+
 # bin include lib lib64 pyvenv.cfg share
+
 $ source my_env/bin/activate [you should see the following which indicates your virtual env is active and running]
+
 # (my_env) bot@ubuntu:~/environments$:
 
 ---- Step 3 ----
@@ -60,10 +73,15 @@ Installing and setting up the bot. [insure you are still in # (my_env) bot@ubunt
 
 
 $ apt install git
+
 $ npm i
+
 $ git clone https://github.com/drewbllc/Wick-Ineractive-Help-Menu.git
+
 $ cd Wick-Ineractive-Help-Menu
+
 $ cd config
+
 $ nano config.js
 
 [The Following should pop up. Use your arrow keys to navigate to each section and type/paste information needed]
